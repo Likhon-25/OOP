@@ -59,14 +59,15 @@ class Emoloyee {
     position;
     id;
     age;
-    selary;
-    constructor(name, position, id, age, selary) {
+    salary;
+    constructor(name, position, id, age, salary) {
         this.name = name;
         this.position = position;
         this.age = age;
         this.id = id;
-        this.selary = selary;
+        this.salary = salary;
     }
 }
 const employee1 = new Emoloyee("Likhon", "Senior Developer", 20, 204590, 30000);
+console.log(employee1);
 //# sourceMappingURL=object.js.map
